@@ -362,6 +362,7 @@ defmodule Gettext.Compiler do
                domain,
                msgctxt,
                msgid,
+               msgid_plural,
                plural_form,
                unquote(repo_opts)
              ) do
